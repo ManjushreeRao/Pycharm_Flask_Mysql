@@ -1,0 +1,4 @@
+Flask
+Flask-mysql
+mysql-connector
+simplejson
