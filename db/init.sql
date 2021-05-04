@@ -1,4 +1,4 @@
-CREATE DATABASE citiesData;
+CREATE DATABASE citiesata;
 use citiesData;
 
 CREATE TABLE IF NOT EXISTS tblCitiesImport (
