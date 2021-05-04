@@ -10,9 +10,9 @@ def cities_import() -> List[Dict]:
     config = {
         'user': 'root',
         'password': 'root',
-        'host': 'db',
+        'host': 'localhost',
         'port': '3306',
-        'database': 'citiesData'
+        'database': 'citiesdata'
     }
     connection = mysql.connector.connect(**config)
     cursor = connection.cursor(dictionary=True)
